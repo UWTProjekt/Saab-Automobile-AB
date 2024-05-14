@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<title>Saab Automobile AB</title>
+<link rel="stylesheet" href="/Saab/css/uredivanje.css">
+<script src="js.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<style>
+.original a:hover {background-color: #eb2d3a;}
+div.sticky {position: sticky;top: 0;margin: 0;}
+div.margina {
+margin-top: 100px;
+text-align:center;
+justify-content:center;
+}
+</style>
+</head>
+<body class="bs5">
+
+<div class="sticky">
+<ul class="lista" style="font-size:110%; font-family:arial;">
+<li><a class="original"><b>SAAB AUTOMOBILE AB</b></a></li>
+<li><a href="index.html">Dobrodošli</a></li>
+<li><a href="s2.html">Povijest</a></li>
+<li><a href="s3.html">Istaknuti modeli</a></li>
+<li><a href="s4.html">The Long Run</a></li>
+<li><a class="original">Probna vožnja</a></li>
+</ul>
+
+<div class="margina">
+<h1 style="color: white; font-size:200%;">PRIJAVITE SE ZA PROBNU VOŽNJU</h1>
+<p style="color: white;">Ne čekajte! Prijavite se odmah i rezervirajte svoje mjesto za probnu vožnju Saab odabranih modela. <br> Iskusite vrhunsku vožnju i pronađite automobil koji će vas oduševiti.</p>
+<br>
+<form action="baza.php" method="post">
+<p style="color: white;">Ime: <input type="text" name="ime"></p>
+<p style="color: white;">Prezime: <input type="text" name="prezime"></p>
+<p style="color: white;">Datum: <input type="text" name="datum"></p>
+<div style="color: white; font-size:130%; font-family:sans-serif;">
+Model:
+        <input type="radio" name="model" value="saab_9000"> Saab 9000
+        <input type="radio" name="model" value="saab_9-3"> Saab 9-3
+        <input type="radio" name="model" value="saab_9-5"> Saab 9-5
+    </div>
+
+<br><br><br>
+<input type="submit" style="font-size: 16px; padding: 10px 20px;">
+</form>
+
+</div>
+
+</body>
+</html>
